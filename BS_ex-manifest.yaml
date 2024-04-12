@@ -1,0 +1,47 @@
+Wedding Witch:
+  installDir:
+    Wedding Witch: {}
+  launch:
+    "<base>/Wedding Witch.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2529820	
+OpenLoco:
+  files:
+    "<winAppData>/OpenLoco":
+      tags:
+        - save
+      when:
+        - os: windows
+Hugo Troll Race:
+  files:
+    "<winAppData>/ImageAndForm/HugoTrollRace/save":
+      tags:
+        - save
+      when:
+        - os: windows
+Super Mario 64 Plus:
+  files:
+    "<winLocalAppData>/SM64Plus":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+Isekai Janken Hero:
+  files:
+    "<home>/AppData/LocalLow/BFGS/Isekai Janken Hero/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+Daggerfall Unity:
+  files:
+    "<home>/AppData/LocalLow/Daggerfall Workshop/Daggerfall Unity":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows

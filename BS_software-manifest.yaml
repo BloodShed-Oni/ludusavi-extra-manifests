@@ -1,0 +1,21 @@
+Ludusavi (Software):
+  files:
+    "<winAppData>/ludusavi":
+      tags:
+        - config
+      when:
+        - os: windows
+XnView MP (Software):
+  files:
+    "<winAppData>/XnViewMP":
+      tags:
+        - config
+      when:
+        - os: windows
+TrenchBroom (Software):
+  files:
+    "<winAppData>/TrenchBroom":
+      tags:
+        - config
+      when:
+        - os: windows
