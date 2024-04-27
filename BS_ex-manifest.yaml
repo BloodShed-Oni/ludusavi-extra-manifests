@@ -45,3 +45,18 @@ Daggerfall Unity:
         - save
       when:
         - os: windows
+Sweet Transit:
+  files:
+    "<winAppData>/Sweet Transit":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+Death Must Die:
+  files:
+    "<home>/AppData/LocalLow/Realm Archive/Death Must Die/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
