@@ -13,3 +13,6 @@ Extra manifests for [Ludusavi](https://github.com/mtkennerly/ludusavi).
 * Under the 'Manifest:' section change the line from 'URL' to 'File'.
 * Press folder button to navigate to and select the manifest file
 * (Optional) press the '+' button to add a new line and repeat the 2 previous steps as needed.
+
+## Want a game added to the manifest?
+Open an issue with the "Add game" label and provide game name and info where the save files are located.
