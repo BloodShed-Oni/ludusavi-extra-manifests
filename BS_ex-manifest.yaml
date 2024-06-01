@@ -60,3 +60,20 @@ Death Must Die:
         - save
       when:
         - os: windows
+Mad Island:
+  files:
+    "<base>/Mad Island_Data/StreamingAssets/XML":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 2739590
+Warhammer 40,000 Freeblade:
+  files:
+    "<winLocalAppData>/Packages/PixelToys.Warhammer40000Freeblade_7092mkm8rcvy0/LocalState":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
