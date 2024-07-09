@@ -19,6 +19,8 @@ Extra manifests for [Ludusavi](https://github.com/mtkennerly/ludusavi).
   
 * (Optional) press the '+' button to add a new line and repeat the 2 previous steps as needed.
 * When you're done, press the reload button (next to 'Manifest:). If done correctly you should see timestamps for 'Checked:' and 'Updated:'
+  ![image](https://github.com/BloodShed-Oni/ludusavi-extra-manifests/assets/10365453/d51a8102-4a01-497a-a5e9-bd2eeeea5108)
+
 
 ## Want a game or software added to the manifest?
 Open an issue with the "Add game" or "Add software" label and provide game/software name and info where the save/config files are located.
