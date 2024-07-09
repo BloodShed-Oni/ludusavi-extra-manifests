@@ -7,12 +7,18 @@ Extra manifests for [Ludusavi](https://github.com/mtkennerly/ludusavi).
 
 
 ## How to use
-* Download manifest file(s) somewhere on your computer
 * Open Ludusavi gui (type 'ludusavi' in Windows Run or command prompt).
 * Press the 'Other' button.
-* Under the 'Manifest:' section change the line from 'URL' to 'File'.
-* Press folder button to navigate to and select the manifest file
-* (Optional) press the '+' button to add a new line and repeat the 2 previous steps as needed.
+* Under the 'Manifest:' section ensure the line is set to 'URL' and not 'File'.
+* Add one of the following URL's:
 
-## Want a game added to the manifest?
-Open an issue with the "Add game" label and provide game name and info where the save files are located.
+  
+  Game saves: https://raw.githubusercontent.com/BloodShed-Oni/ludusavi-extra-manifests/main/BS_ex-manifest.yaml 
+
+  Software: https://raw.githubusercontent.com/BloodShed-Oni/ludusavi-extra-manifests/main/BS_software-manifest.yaml
+  
+* (Optional) press the '+' button to add a new line and repeat the 2 previous steps as needed.
+* When you're done, press the reload button (next to 'Manifest:). If done correctly you should see timestamps for 'Checked:' and 'Updated:'
+
+## Want a game or software added to the manifest?
+Open an issue with the "Add game" or "Add software" label and provide game/software name and info where the save/config files are located.
