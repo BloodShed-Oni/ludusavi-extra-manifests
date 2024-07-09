@@ -19,3 +19,17 @@ TrenchBroom (Software):
         - config
       when:
         - os: windows
+Logitech Gaming Software (Software):
+  files:
+    "<winLocalAppData>/Logitech/Logitech Gaming Software/profiles":
+      tags:
+        - config
+      when:
+        - os: windows
+OBS Studio (Software):
+  files:
+    "<winAppData>/obs-studio":
+      tags:
+        - config
+      when:
+        - os: windows
