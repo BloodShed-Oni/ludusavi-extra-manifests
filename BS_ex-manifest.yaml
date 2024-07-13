@@ -8,6 +8,7 @@ Wedding Witch:
             store: steam
   steam:
     id: 2529820	
+
 OpenLoco:
   files:
     "<winAppData>/OpenLoco":
@@ -15,6 +16,7 @@ OpenLoco:
         - save
       when:
         - os: windows
+
 Hugo Troll Race:
   files:
     "<winAppData>/ImageAndForm/HugoTrollRace/save":
@@ -22,6 +24,7 @@ Hugo Troll Race:
         - save
       when:
         - os: windows
+
 Super Mario 64 Plus:
   files:
     "<winLocalAppData>/SM64Plus":
@@ -30,6 +33,7 @@ Super Mario 64 Plus:
         - save
       when:
         - os: windows
+
 Isekai Janken Hero:
   files:
     "<home>/AppData/LocalLow/BFGS/Isekai Janken Hero/SaveData":
@@ -37,6 +41,7 @@ Isekai Janken Hero:
         - save
       when:
         - os: windows
+
 Daggerfall Unity:
   files:
     "<home>/AppData/LocalLow/Daggerfall Workshop/Daggerfall Unity":
@@ -45,6 +50,7 @@ Daggerfall Unity:
         - save
       when:
         - os: windows
+
 Sweet Transit:
   files:
     "<winAppData>/Sweet Transit":
@@ -53,6 +59,7 @@ Sweet Transit:
         - save
       when:
         - os: windows
+
 Death Must Die:
   files:
     "<home>/AppData/LocalLow/Realm Archive/Death Must Die/Saves":
@@ -60,6 +67,7 @@ Death Must Die:
         - save
       when:
         - os: windows
+
 Mad Island:
   files:
     "<base>/Mad Island_Data/StreamingAssets/XML":
@@ -69,11 +77,34 @@ Mad Island:
         - os: windows
   steam:
     id: 2739590
-Warhammer 40,000 Freeblade:
+
+"Warhammer 40,000: Freeblade":
   files:
     "<winLocalAppData>/Packages/PixelToys.Warhammer40000Freeblade_7092mkm8rcvy0/LocalState":
       tags:
         - config
         - save
+      when:
+        - os: windows
+
+"Jak and Daxter: The Precursor Legacy (OpenGOAL)":
+  files:
+    "<winAppData>/OpenGOAL/jak1/saves":
+      tags:
+        - save
+      when:
+        - os: windows   
+    "<winAppData>/OpenGOAL/jak1/settings":
+      tags:
+        - config
+      when:
+        - os: windows   
+
+DevilutionX - Diablo 1 port:
+  files:
+    "<winAppData>/diasurgical/devilution":
+      tags:
+        - save
+        - config
       when:
         - os: windows
