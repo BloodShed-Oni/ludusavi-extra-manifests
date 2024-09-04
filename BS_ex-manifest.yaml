@@ -108,3 +108,11 @@ DevilutionX - Diablo 1 port:
         - config
       when:
         - os: windows
+
+Zompiercer:
+  files:
+    "<home>/AppData/LocalLow/DDDimanN/Zompiercer/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
