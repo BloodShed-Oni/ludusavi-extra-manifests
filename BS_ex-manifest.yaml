@@ -114,5 +114,6 @@ Zompiercer:
     "<home>/AppData/LocalLow/DDDimanN/Zompiercer/Saves":
       tags:
         - save
+        - config
       when:
         - os: windows
