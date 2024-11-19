@@ -6,6 +6,9 @@ Extra manifests for [Ludusavi](https://github.com/mtkennerly/ludusavi).
 [**BS_software-manifest.yaml**](https://github.com/BloodShed-Oni/ludusavi-extra-manifests/blob/main/BS_software-manifest.yaml) kind of goes against the main purpose of Ludusavi, but expands the utility of it by adding location data for a selection of software configs (ex. TrenchBroom map editor).
 
 
+You can see a complete list for each manifest on the wiki
+https://github.com/BloodShed-Oni/ludusavi-extra-manifests/wiki
+
 ## How to use
 * Open Ludusavi gui (type 'ludusavi' in Windows Run or command prompt).
 * Press the 'Other' button.
