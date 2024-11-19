@@ -33,3 +33,10 @@ OBS Studio (Software):
         - config
       when:
         - os: windows
+OrcaSlicer (Software):
+  files:
+    "<winAppData>/OrcaSlicer":
+      tags:
+        - config
+      when:
+        - os: windows
