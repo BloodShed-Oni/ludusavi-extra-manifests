@@ -117,3 +117,12 @@ Zompiercer:
         - config
       when:
         - os: windows
+
+One Military Camp:
+  files:
+    "<home>/AppData/LocalLow/Abylight Barcelona/One Military Camp":
+      tags:
+        - save
+        - config
+      when:
+        - os: windows
