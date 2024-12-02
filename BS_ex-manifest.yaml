@@ -126,3 +126,12 @@ One Military Camp:
         - config
       when:
         - os: windows
+
+Tumblebugs:
+  files:
+    "<winAppData>/Wildfire":
+      tags:
+        - save
+        - config
+      when:
+        - os: windows
