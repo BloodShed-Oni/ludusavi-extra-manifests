@@ -135,3 +135,12 @@ Tumblebugs:
         - config
       when:
         - os: windows
+
+"Need For Speed II SE (wrapper)":
+  files:
+    "<winAppData>/.nfs2se":
+      tags:
+        - save
+        - config
+      when:
+        - os: windows
