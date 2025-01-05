@@ -144,3 +144,14 @@ Tumblebugs:
         - config
       when:
         - os: windows
+
+Super Video Golf:
+  installDir:
+    Super Video Golf: {}
+  launch:
+    "<base>/golf.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2173760
