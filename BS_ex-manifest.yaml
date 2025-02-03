@@ -155,3 +155,11 @@ Super Video Golf:
             store: steam
   steam:
     id: 2173760
+
+Amarillo's Butt Slapper:
+  files:
+    "<home>/AppData/LocalLow/AmarilloArts/Amarillo's Butt Slapper":
+      tags:
+        - save
+      when:
+        - os: windows
