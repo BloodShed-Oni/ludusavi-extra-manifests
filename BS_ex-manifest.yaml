@@ -163,3 +163,11 @@ Super Video Golf:
         - save
       when:
         - os: windows
+
+Romancelvania:
+  files:
+    "<winLocalAppData>/Romancelvania/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
