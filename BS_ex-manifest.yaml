@@ -184,3 +184,13 @@ Sapphire Safari:
         - photos
       when:
         - os: windows
+
+"DOSMan: Space Aliens in Space!":
+  files:
+    "<base>/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 2937330
