@@ -194,3 +194,21 @@ Sapphire Safari:
         - os: windows
   steam:
     id: 2937330
+
+Anomalous Coffee Machine:
+  files:
+    "<winAppData>/Godot/app_userdata/Anomalous Coffee Machine/*.dat":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+"Asterix & Obelix: Heroes":
+  files:
+    "<home>/AppData/LocalLow/gameXcite/Hero_Asterix/Steam":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
