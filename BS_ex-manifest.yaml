@@ -212,3 +212,13 @@ Anomalous Coffee Machine:
         - save
       when:
         - os: windows
+
+Hocus Pocus:
+  files:
+    "<base>/Hocus Pocus/HOCUS.SAV":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 358290
