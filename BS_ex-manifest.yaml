@@ -222,3 +222,11 @@ Hocus Pocus:
         - os: windows
   steam:
     id: 358290
+
+Desktop Survivors 98:
+  files:
+    "<winAppData>/Desktop Survivors 98":
+      tags:
+        - save
+      when:
+        - os: windows
