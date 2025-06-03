@@ -230,3 +230,23 @@ Desktop Survivors 98:
         - save
       when:
         - os: windows
+
+Dark Arena:
+  files:
+    "<base>/res/0*":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/res/1*":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/res/2*":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 1150700
