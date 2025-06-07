@@ -252,7 +252,7 @@ Dark Arena:
     id: 1150700
 
 # Assume standart install and not portable
-"Star Wars: Tie Fighter (DREAMM)":
+"Star Wars: TIE Fighter (DREAMM)":
   files:
     "<winAppData>/Aaron Giles/DREAMM/gamedelta/lec-tie":
       tags:
