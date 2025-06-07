@@ -252,9 +252,19 @@ Dark Arena:
     id: 1150700
 
 # Assume standart install and not portable
-"Star Wars: Tie Fighter (DREAMM)":
+"Star Wars: TIE Fighter (DREAMM)":
   files:
     "<winAppData>/Aaron Giles/DREAMM/gamedelta/lec-tie":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+# Assume standart install and not portable
+"Outlaws + A Handful of Missions (DREAMM)":
+  files:
+    "<winAppData>/Aaron Giles/DREAMM/gamedelta/lec-outlaws":
       tags:
         - config
         - save
