@@ -46,7 +46,7 @@ OrcaSlicer (Software):
       when:
         - os: windows
 
-TrayToolbar:
+TrayToolbar (Software):
   files:
     "<winLocalAppData>/TrayToolbar":
       tags:
