@@ -5,6 +5,7 @@ Ludusavi (Software):
         - config
       when:
         - os: windows
+
 XnView MP (Software):
   files:
     "<winAppData>/XnViewMP":
@@ -12,6 +13,7 @@ XnView MP (Software):
         - config
       when:
         - os: windows
+
 TrenchBroom (Software):
   files:
     "<winAppData>/TrenchBroom":
@@ -19,6 +21,7 @@ TrenchBroom (Software):
         - config
       when:
         - os: windows
+
 Logitech Gaming Software (Software):
   files:
     "<winLocalAppData>/Logitech/Logitech Gaming Software/profiles":
@@ -26,6 +29,7 @@ Logitech Gaming Software (Software):
         - config
       when:
         - os: windows
+
 OBS Studio (Software):
   files:
     "<winAppData>/obs-studio":
@@ -33,9 +37,18 @@ OBS Studio (Software):
         - config
       when:
         - os: windows
+
 OrcaSlicer (Software):
   files:
     "<winAppData>/OrcaSlicer":
+      tags:
+        - config
+      when:
+        - os: windows
+
+TrayToolbar:
+  files:
+    "<winLocalAppData>/TrayToolbar":
       tags:
         - config
       when:
