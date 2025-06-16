@@ -270,3 +270,14 @@ Dark Arena:
         - save
       when:
         - os: windows
+
+Pingus:
+  files:
+    "<winAppData>/Pingus":
+      tags:
+        - config
+        - save
+        - levels
+      when:
+        - os: windows
+
