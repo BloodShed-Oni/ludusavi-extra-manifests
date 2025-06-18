@@ -281,3 +281,13 @@ Pingus:
       when:
         - os: windows
 
+AColony:
+  files:
+    "<base>/saves":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 1200570
