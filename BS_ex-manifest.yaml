@@ -323,7 +323,7 @@ AColony:
   installDir:
     DoomRPG: {}
 
-"Doom 2 RPG (Mobile)":
+"Doom II RPG (Mobile)":
   files:
     "<base>/Doom2rpg.app":
       tags:
