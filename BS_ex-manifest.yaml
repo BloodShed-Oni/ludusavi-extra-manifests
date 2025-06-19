@@ -291,3 +291,55 @@ AColony:
         - os: windows
   steam:
     id: 1200570
+
+"Dungeon Keeper (KeeperFX)":
+  files:
+    "<base>/save":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    KeeperFX: {}
+
+"Doom RPG (Mobile)":
+  files:
+    "<base>/Player*":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/World":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/Config":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    DoomRPG: {}
+
+"Doom 2 RPG (Mobile)":
+  files:
+    "<base>/Doom2rpg.app":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Doom 2 RPG: {}
+
+WipeOut Phantom Edition:
+  files:
+    "<base>/highscores.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    wipeout: {}
