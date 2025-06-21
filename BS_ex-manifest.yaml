@@ -343,3 +343,12 @@ WipeOut Phantom Edition:
         - os: windows
   installDir:
     wipeout: {}
+
+IGT Slots Paradise Garden:
+  registry:
+    HKEY_CURRENT_USER/Software/Encore/IGTÂ® Slots Paradise Gardenâ„¢:
+      tags:
+        - save
+        - config
+  steam:
+    id: 320970
