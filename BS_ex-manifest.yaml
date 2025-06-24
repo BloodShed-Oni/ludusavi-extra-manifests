@@ -352,3 +352,14 @@ IGT Slots Paradise Garden:
         - config
   steam:
     id: 320970
+
+Wolfenstein RPG:
+  files:
+    "<base>/WolfensteinRPG.app":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Wolfenstein RPG: {}
