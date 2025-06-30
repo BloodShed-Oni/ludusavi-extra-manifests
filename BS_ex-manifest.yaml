@@ -363,3 +363,12 @@ Wolfenstein RPG:
         - os: windows
   installDir:
     Wolfenstein RPG: {}
+
+Dwelvers:
+  files:
+    "<winAppData>/Dwelvers":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
