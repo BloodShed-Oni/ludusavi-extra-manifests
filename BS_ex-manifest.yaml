@@ -372,3 +372,14 @@ Dwelvers:
         - save
       when:
         - os: windows
+
+Slam Tilt:
+  files:
+    "<base>/DAT/SLAMTILT.CFG":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Slamtilt: {}
