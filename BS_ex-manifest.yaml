@@ -383,3 +383,15 @@ Slam Tilt:
         - os: windows
   installDir:
     Slamtilt: {}
+
+ITGmania:
+  files:
+    "<base>/Save":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    ITGmania: {}
+
