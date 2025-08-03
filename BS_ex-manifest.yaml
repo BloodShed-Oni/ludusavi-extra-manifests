@@ -395,3 +395,10 @@ ITGmania:
   installDir:
     ITGmania: {}
 
+It's Only Money:
+  files:
+    "<winLocalAppData>/CrimeRP/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
