@@ -402,3 +402,12 @@ It's Only Money:
         - save
       when:
         - os: windows
+
+Tamer Vale:
+  files:
+    "<home>/AppData/LocalLow/PixelBee/TamerVale":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
