@@ -411,3 +411,12 @@ Tamer Vale:
         - save
       when:
         - os: windows
+
+Non-Stop Raiders:
+  registry:
+    "HKEY_CURRENT_USER/Software/Orkbadger/Non-Stop Raiders":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
