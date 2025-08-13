@@ -420,3 +420,12 @@ Non-Stop Raiders:
         - save
       when:
         - os: windows
+
+"Ghost Master: Resurrection":
+  files:
+    "<winLocalAppData>/GhostMasterRemake/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
