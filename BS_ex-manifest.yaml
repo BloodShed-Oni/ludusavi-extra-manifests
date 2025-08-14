@@ -429,3 +429,12 @@ Non-Stop Raiders:
         - save
       when:
         - os: windows
+
+HOLE:
+  files:
+    "<winLocalAppData>/HOLE/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
