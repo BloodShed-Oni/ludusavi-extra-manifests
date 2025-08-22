@@ -438,3 +438,11 @@ HOLE:
         - save
       when:
         - os: windows
+
+My Little Life:
+  files:
+    "<winLocalAppData>/My_Little_Life/FULL/SAVES":
+      tags:
+        - save
+      when:
+        - os: windows
