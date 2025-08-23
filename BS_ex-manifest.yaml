@@ -446,3 +446,11 @@ My Little Life:
         - save
       when:
         - os: windows
+
+Stick It to the Stickman:
+  files:
+    "<home>/AppData/LocalLow/Free Lives/Stick It To The Stickman/GameData/*.stk":
+      tags:
+        - save
+      when:
+        - os: windows
