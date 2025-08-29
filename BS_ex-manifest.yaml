@@ -454,3 +454,11 @@ Stick It to the Stickman:
         - save
       when:
         - os: windows
+
+Metal Thunder:
+  files:
+    "<home>/AppData/LocalLow/Dumbbell Games/Metal Thunder":
+      tags:
+        - save
+      when:
+        - os: windows
