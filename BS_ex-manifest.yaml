@@ -462,3 +462,11 @@ Metal Thunder:
         - save
       when:
         - os: windows
+
+Rhythm Fighter:
+  files:
+    "<home>/AppData/LocalLow/EchoGames/Rhythm Fighter/rf_steam/played.dat":
+      tags:
+        - save
+      when:
+        - os: windows
