@@ -470,3 +470,11 @@ Rhythm Fighter:
         - save
       when:
         - os: windows
+
+Riding to Bounce City:
+  files:
+    "<home>/AppData/LocalLow/Trigon fan/Riding to Bounce City/player.json":
+      tags:
+        - save
+      when:
+        - os: windows
