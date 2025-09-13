@@ -478,3 +478,11 @@ Riding to Bounce City:
         - save
       when:
         - os: windows
+
+"Snow Bros. Wonderland":
+  files:
+    "<home>/AppData/LocalLow/TATSUJIN/SBW/Steam/Save/*/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
