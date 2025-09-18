@@ -486,3 +486,11 @@ Riding to Bounce City:
         - save
       when:
         - os: windows
+
+Badlands Crew:
+  files:
+    "<home>/AppData/LocalLow/Runner Duck/BadlandsCrew":
+      tags:
+        - save
+      when:
+        - os: windows
