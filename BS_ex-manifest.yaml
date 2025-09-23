@@ -494,3 +494,14 @@ Badlands Crew:
         - save
       when:
         - os: windows
+
+Lewd Gym:
+  files:
+    "<base>/www/save/*.rpgsave":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 2019680
