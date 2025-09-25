@@ -505,3 +505,11 @@ Lewd Gym:
         - os: windows
   steam:
     id: 2019680
+
+Mineral Defense:
+  files:
+    "<winLocalAppData>/DangerTower/Saved/SaveGames/*/*.json":
+      tags:
+        - save
+      when:
+        - os: windows
