@@ -524,3 +524,12 @@ Mineral Defense:
         - os: windows
   steam:
     id: 2331220
+
+Platypus Reclayed:
+  files:
+    "<home>/AppData/LocalLow/Claymatic Games/Platypus Reclayed/Store/":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
