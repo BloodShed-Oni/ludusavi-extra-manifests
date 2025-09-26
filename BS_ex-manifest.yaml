@@ -513,3 +513,14 @@ Mineral Defense:
         - save
       when:
         - os: windows
+
+1 Million Zombies:
+  files:
+    "<base>/Data/*.daz":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 2331220
