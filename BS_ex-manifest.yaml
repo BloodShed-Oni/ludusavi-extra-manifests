@@ -533,3 +533,12 @@ Platypus Reclayed:
         - save
       when:
         - os: windows
+
+Rise of Gun:
+  files:
+    "<winLocalAppData>/RiseOfGun/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
