@@ -542,3 +542,13 @@ Rise of Gun:
         - save
       when:
         - os: windows
+
+Skarab:
+  files:
+    "<base>/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3557830
