@@ -552,3 +552,11 @@ Skarab:
         - os: windows
   steam:
     id: 3557830
+
+Relentless Frontier:
+  files:
+    "<home>/Saved Games/Relentless Frontier/Relentless Frontier":
+      tags:
+        - save
+      when:
+        - os: windows
