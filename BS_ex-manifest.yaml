@@ -560,3 +560,11 @@ Relentless Frontier:
         - save
       when:
         - os: windows
+
+Mini Settlers:
+  files:
+    "<home>/AppData/LocalLow/Knight Owl Games/Mini Settlers/*/":
+      tags:
+        - save
+      when:
+        - os: windows
