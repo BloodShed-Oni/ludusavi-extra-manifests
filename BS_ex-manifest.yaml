@@ -568,3 +568,12 @@ Mini Settlers:
         - save
       when:
         - os: windows
+
+Desktop Defender:
+  files:
+    "<home>/AppData/LocalLow/Conradical Games/Desktop Defender/*.sav":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
