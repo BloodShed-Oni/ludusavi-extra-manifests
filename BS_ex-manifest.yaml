@@ -447,13 +447,13 @@ My Little Life:
       when:
         - os: windows
 
-Stick It to the Stickman:
-  files:
-    "<home>/AppData/LocalLow/Free Lives/Stick It To The Stickman/GameData/*.stk":
-      tags:
-        - save
-      when:
-        - os: windows
+#Stick It to the Stickman:
+#  files:
+#    "<home>/AppData/LocalLow/Free Lives/Stick It To The Stickman/GameData/*.stk":
+#      tags:
+#        - save
+#      when:
+#        - os: windows
 
 Metal Thunder:
   files:
@@ -577,3 +577,12 @@ Desktop Defender:
         - save
       when:
         - os: windows
+
+Bits & Bops:
+  files:
+    "<home>/AppData/LocalLow/Tempo Lab Games/Bits _ Bops/save1.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+
