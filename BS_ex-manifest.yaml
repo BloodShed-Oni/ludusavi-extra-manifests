@@ -586,3 +586,13 @@ Bits & Bops:
       when:
         - os: windows
 
+Demonic Mahjong:
+  files:
+    "<home>/AppData/LocalLow/Boxed Lightning Games/Demonic Mahjong/Save/*":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3444020
