@@ -596,3 +596,15 @@ Demonic Mahjong:
         - os: windows
   steam:
     id: 3444020
+
+Anomalous Coffee Machine 2:
+  files:
+    "<winAppData>/Godot/app_userdata/Anomalous Coffee Machine 2/*.dat":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3797340
+
