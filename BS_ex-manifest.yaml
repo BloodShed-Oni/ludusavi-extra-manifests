@@ -616,3 +616,11 @@ Dr. Mario 64:
         - config
       when:
         - os: windows
+
+Gunhouse:
+  files:
+    "<home>/AppData/LocalLow/Necrosoft Games/Gunhouse/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
