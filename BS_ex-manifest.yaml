@@ -608,3 +608,11 @@ Anomalous Coffee Machine 2:
   steam:
     id: 3797340
 
+Dr. Mario 64:
+  files:
+    "<winLocalAppData>/drmario64_recomp":
+      tags:
+        - save
+        - config
+      when:
+        - os: windows
