@@ -624,3 +624,16 @@ Gunhouse:
         - save
       when:
         - os: windows
+
+Folklands:
+  files:
+    "<winAppData>/Godot/app_userdata/Folklands/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Godot/app_userdata/Folklands/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
