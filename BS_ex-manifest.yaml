@@ -637,3 +637,12 @@ Folklands:
         - config
       when:
         - os: windows
+
+# From the Developer
+Smutty Scrolls:
+  files:
+    "<winAppData>/Smutty Scrolls/Local Storage/leveldb":
+      tags:
+        - save
+      when:
+        - os: windows
