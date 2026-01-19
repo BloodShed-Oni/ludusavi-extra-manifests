@@ -646,3 +646,11 @@ Smutty Scrolls:
         - save
       when:
         - os: windows
+
+WW2 Rebuilder:
+  files:
+    "<winLocalAppData>/WW2_Rebuilder/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
