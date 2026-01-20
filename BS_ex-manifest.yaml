@@ -654,3 +654,12 @@ WW2 Rebuilder:
         - save
       when:
         - os: windows
+
+Entropy Survivors:
+  files:
+    "<winLocalAppData>/EntropySurvivors/Saved/SaveGames/*.sav":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
