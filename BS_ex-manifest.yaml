@@ -663,3 +663,26 @@ Entropy Survivors:
         - save
       when:
         - os: windows
+
+Epilogue Playback:
+  files:
+    "<winLocalAppData>/Epilogue/Playback/vault":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Epilogue/Playback/shaders":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Epilogue/Playback/archive":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Epilogue/Playback/cores":
+      tags:
+        - config
+      when:
+        - os: windows
