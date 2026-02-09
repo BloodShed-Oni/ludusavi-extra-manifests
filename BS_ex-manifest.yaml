@@ -686,3 +686,12 @@ Epilogue Playback:
         - config
       when:
         - os: windows
+
+Bioweaver:
+  files:
+    "<home>/AppData/LocalLow/EmpromGame/Bioweaver/219858":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
