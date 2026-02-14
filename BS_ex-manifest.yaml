@@ -695,3 +695,16 @@ Bioweaver:
         - save
       when:
         - os: windows
+
+# TODO Remove once the PCgaming Wiki page can be edited again
+Dino Crisis:
+  installDir:
+    4249130_DinoCrisis: {}
+  files:
+    "<base>/*/SAVE*.dns":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 4249130
