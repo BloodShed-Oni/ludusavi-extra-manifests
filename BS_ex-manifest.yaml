@@ -708,3 +708,15 @@ Dino Crisis:
         - os: windows
   steam:
     id: 4249130
+
+# Rule provided by sehraf
+Eufloria Classic:
+  cloud:
+    steam: true
+  files:
+    <winProgramData>/Omni Systems/Eufloria:
+      tags:
+        - save
+        - config
+  steam:
+    id: 3254570
