@@ -709,7 +709,7 @@ Dino Crisis:
   steam:
     id: 4249130
 
-# Rule provided by sehraf
+# Base rule provided by sehraf
 Eufloria Classic:
   cloud:
     steam: true
@@ -718,5 +718,8 @@ Eufloria Classic:
       tags:
         - save
         - config
+      when:
+        - os: windows
+        - os: linux
   steam:
     id: 3254570
