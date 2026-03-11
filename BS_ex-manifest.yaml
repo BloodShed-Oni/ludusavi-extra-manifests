@@ -100,6 +100,9 @@ Mad Island:
       when:
         - os: windows   
 
+"Jak and Daxter: The Precursor Legacy":
+  alias: "Jak and Daxter: The Precursor Legacy (OpenGOAL)"
+
 DevilutionX - Diablo 1 port:
   files:
     "<winAppData>/diasurgical/devilution":
