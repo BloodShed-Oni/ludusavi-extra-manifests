@@ -726,3 +726,18 @@ Eufloria Classic:
         - os: linux
   steam:
     id: 3254570
+
+# TODO Check for future changes in file structure (including DLC)
+Milling Machine Simulator:
+  files:
+    "<home>/AppData/LocalLow/UI-Games/Milling machine 3D/*.txt":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<home>/AppData/LocalLow/UI-Games/Milling machine 3D/*/*.txt":
+      tags:
+        - save
+      when:
+        - os: windows
