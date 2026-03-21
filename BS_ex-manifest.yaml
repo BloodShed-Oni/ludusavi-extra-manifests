@@ -741,3 +741,25 @@ Milling Machine Simulator:
         - save
       when:
         - os: windows
+
+Action Ball:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/rionix/actionball/*.dat":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+ADVANCED V.G. Saturn Tribute:
+  cloud:
+    steam: true
+  files:
+    "<home>/Saved Games/ADVANCED V.G. Saturn Tribute/*.bin":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
