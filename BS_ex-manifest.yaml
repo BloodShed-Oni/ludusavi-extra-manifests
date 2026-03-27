@@ -763,3 +763,14 @@ ADVANCED V.G. Saturn Tribute:
         - save
       when:
         - os: windows
+
+Typing Land:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/higopage/TypingLand/*.txt":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
