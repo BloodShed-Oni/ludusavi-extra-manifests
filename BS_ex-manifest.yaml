@@ -774,3 +774,17 @@ Typing Land:
         - save
       when:
         - os: windows
+
+"Kajun-chan's Lucid Room":
+  files:
+    "<winLocalAppData>/Iseika/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Iseika/Saved/Screenshots":
+      tags:
+        - save
+      when:
+        - os: windows
