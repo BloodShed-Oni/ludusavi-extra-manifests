@@ -803,3 +803,16 @@ D.O.T. Defence:
         - save
       when:
         - os: windows
+
+Outlive 25:
+  files:
+    "<winAppData>/Continuum/Outlive25/prefs.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Continuum/Outlive25/Players":
+      tags:
+        - save
+      when:
+        - os: windows
