@@ -788,3 +788,18 @@ Typing Land:
         - save
       when:
         - os: windows
+
+D.O.T. Defence:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/DOTDefence/*_progress.cfg":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Godot/app_userdata/DOTDefence/*.save":
+      tags:
+        - save
+      when:
+        - os: windows
