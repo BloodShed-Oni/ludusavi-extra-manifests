@@ -175,18 +175,18 @@ Romancelvania:
       when:
         - os: windows
 
-Sapphire Safari:
-  files:
-    "<winLocalAppData>/SapphireSafari/Saved/SaveGames":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winLocalAppData>/SapphireSafari/Saved/Photos":
-      tags:
-        - photos
-      when:
-        - os: windows
+#Sapphire Safari:
+#  files:
+#    "<winLocalAppData>/SapphireSafari/Saved/SaveGames":
+#      tags:
+#        - save
+#      when:
+#        - os: windows
+#   "<winLocalAppData>/SapphireSafari/Saved/Photos":
+#      tags:
+#        - photos
+#      when:
+#        - os: windows
 
 "DOSMan: Space Aliens in Space!":
   files:
