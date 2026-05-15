@@ -825,3 +825,12 @@ Valley Peaks:
         - save
       when:
         - os: windows
+
+Pesticide Not Required:
+  files:
+    "<home>/AppData/LocalLow/Jampacked Games/Pesticide Not Required/*.balls":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
