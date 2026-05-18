@@ -818,6 +818,8 @@ Outlive 25:
         - os: windows
 
 Valley Peaks:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/TubClub/ValleyPeaks/QuickSave":
       tags:
@@ -827,10 +829,30 @@ Valley Peaks:
         - os: windows
 
 Pesticide Not Required:
+  cloud:
+    steam: true
   files:
     "<home>/AppData/LocalLow/Jampacked Games/Pesticide Not Required/*.balls":
       tags:
         - config
+        - save
+      when:
+        - os: windows
+
+Skies above the Great War:
+  files:
+    "<winAppData>/Godot/app_userdata/Skies above the Great War/settings.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Godot/app_userdata/Skies above the Great War/tutorial_progress.txt":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Godot/app_userdata/Skies above the Great War/Savegames":
+      tags:
         - save
       when:
         - os: windows
