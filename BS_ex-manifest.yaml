@@ -856,3 +856,12 @@ Skies above the Great War:
         - save
       when:
         - os: windows
+
+Granvir:
+  files:
+    "<home>/AppData/LocalLow/Airborne Games/Granvir/Progress/*.txt":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
