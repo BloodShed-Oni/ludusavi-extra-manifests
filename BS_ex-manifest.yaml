@@ -865,3 +865,23 @@ Granvir:
         - save
       when:
         - os: windows
+
+Spellbound Beauties:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Lunar Kiss Games/Spellbound Beauties/*.es3":
+      tags:
+        - save
+      when:
+        - os: windows
+
+"Blossom: The Seed Of Life":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Pebbledust Games/Blossom The Seed Of Life":
+      tags:
+        - save
+      when:
+        - os: windows
