@@ -1,163 +1,46 @@
-Wedding Witch:
-  installDir:
-    Wedding Witch: {}
-  launch:
-    "<base>/Wedding Witch.exe":
-      - when:
-          - os: windows
-            store: steam
-  steam:
-    id: 2529820	
-
-OpenLoco:
+1 Million Zombies:
   files:
-    "<winAppData>/OpenLoco":
-      tags:
-        - save
-      when:
-        - os: windows
-
-Hugo Troll Race:
-  files:
-    "<winAppData>/ImageAndForm/HugoTrollRace/save":
-      tags:
-        - save
-      when:
-        - os: windows
-
-Super Mario 64 Plus:
-  files:
-    "<winLocalAppData>/SM64Plus":
+    "<base>/Data/*.daz":
       tags:
         - config
-        - save
-      when:
-        - os: windows
-
-Isekai Janken Hero:
-  files:
-    "<home>/AppData/LocalLow/BFGS/Isekai Janken Hero/SaveData":
-      tags:
-        - save
-      when:
-        - os: windows
-
-Daggerfall Unity:
-  files:
-    "<home>/AppData/LocalLow/Daggerfall Workshop/Daggerfall Unity":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
-Sweet Transit:
-  files:
-    "<winAppData>/Sweet Transit":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
-Death Must Die:
-  files:
-    "<home>/AppData/LocalLow/Realm Archive/Death Must Die/Saves":
-      tags:
-        - save
-      when:
-        - os: windows
-
-Mad Island:
-  files:
-    "<base>/Mad Island_Data/StreamingAssets/XML":
-      tags:
         - save
       when:
         - os: windows
   steam:
-    id: 2739590
+    id: 2331220
 
-"Warhammer 40,000: Freeblade":
+AColony:
   files:
-    "<winLocalAppData>/Packages/PixelToys.Warhammer40000Freeblade_7092mkm8rcvy0/LocalState":
+    "<base>/saves":
       tags:
         - config
         - save
       when:
         - os: windows
-
-"Jak and Daxter: The Precursor Legacy (OpenGOAL)":
-  files:
-    "<winAppData>/OpenGOAL/jak1/saves":
-      tags:
-        - save
-      when:
-        - os: windows   
-    "<winAppData>/OpenGOAL/jak1/settings":
-      tags:
-        - config
-      when:
-        - os: windows   
-
-"Jak and Daxter: The Precursor Legacy":
-  alias: "Jak and Daxter: The Precursor Legacy (OpenGOAL)"
-
-DevilutionX - Diablo 1 port:
-  files:
-    "<winAppData>/diasurgical/devilution":
-      tags:
-        - save
-        - config
-      when:
-        - os: windows
-
-Zompiercer:
-  files:
-    "<home>/AppData/LocalLow/DDDimanN/Zompiercer/Saves":
-      tags:
-        - save
-        - config
-      when:
-        - os: windows
-
-One Military Camp:
-  files:
-    "<home>/AppData/LocalLow/Abylight Barcelona/One Military Camp":
-      tags:
-        - save
-        - config
-      when:
-        - os: windows
-
-Tumblebugs:
-  files:
-    "<winAppData>/Wildfire":
-      tags:
-        - save
-        - config
-      when:
-        - os: windows
-
-"Need For Speed II SE (wrapper)":
-  files:
-    "<winAppData>/.nfs2se":
-      tags:
-        - save
-        - config
-      when:
-        - os: windows
-
-Super Video Golf:
-  installDir:
-    Super Video Golf: {}
-  launch:
-    "<base>/golf.exe":
-      - when:
-          - os: windows
-            store: steam
   steam:
-    id: 2173760
+    id: 1200570
+
+Action Ball:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/rionix/actionball/*.dat":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+ADVANCED V.G. Saturn Tribute:
+  cloud:
+    steam: true
+  files:
+    "<home>/Saved Games/ADVANCED V.G. Saturn Tribute/*.bin":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
 
 "Amarillo's Butt Slapper":
   files:
@@ -166,37 +49,6 @@ Super Video Golf:
         - save
       when:
         - os: windows
-
-Romancelvania:
-  files:
-    "<winLocalAppData>/Romancelvania/Saved/SaveGames":
-      tags:
-        - save
-      when:
-        - os: windows
-
-#Sapphire Safari:
-#  files:
-#    "<winLocalAppData>/SapphireSafari/Saved/SaveGames":
-#      tags:
-#        - save
-#      when:
-#        - os: windows
-#   "<winLocalAppData>/SapphireSafari/Saved/Photos":
-#      tags:
-#        - photos
-#      when:
-#        - os: windows
-
-"DOSMan: Space Aliens in Space!":
-  files:
-    "<base>/Saves":
-      tags:
-        - save
-      when:
-        - os: windows
-  steam:
-    id: 2937330
 
 Anomalous Coffee Machine:
   files:
@@ -207,6 +59,17 @@ Anomalous Coffee Machine:
       when:
         - os: windows
 
+Anomalous Coffee Machine 2:
+  files:
+    "<winAppData>/Godot/app_userdata/Anomalous Coffee Machine 2/*.dat":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3797340
+
 "Asterix & Obelix: Heroes":
   files:
     "<home>/AppData/LocalLow/gameXcite/Hero_Asterix/Steam":
@@ -216,20 +79,46 @@ Anomalous Coffee Machine:
       when:
         - os: windows
 
-Hocus Pocus:
+Badlands Crew:
   files:
-    "<base>/Hocus Pocus/HOCUS.SAV":
+    "<home>/AppData/LocalLow/Runner Duck/BadlandsCrew":
       tags:
         - save
       when:
         - os: windows
-  steam:
-    id: 358290
 
-Desktop Survivors 98:
+Bioweaver:
   files:
-    "<winAppData>/Desktop Survivors 98":
+    "<home>/AppData/LocalLow/EmpromGame/Bioweaver/219858":
       tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+Bits & Bops:
+  files:
+    "<home>/AppData/LocalLow/Tempo Lab Games/Bits _ Bops/save1.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+
+"Blossom: The Seed Of Life":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Pebbledust Games/Blossom The Seed Of Life":
+      tags:
+        - save
+      when:
+        - os: windows
+
+Daggerfall Unity:
+  files:
+    "<home>/AppData/LocalLow/Daggerfall Workshop/Daggerfall Unity":
+      tags:
+        - config
         - save
       when:
         - os: windows
@@ -254,57 +143,63 @@ Dark Arena:
   steam:
     id: 1150700
 
-# Assume standart install and not portable
-"Star Wars: TIE Fighter (DREAMM)":
-  files:
-    "<winAppData>/Aaron Giles/DREAMM/gamedelta/lec-tie":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
+#Death Must Die:
+#  files:
+#    "<home>/AppData/LocalLow/Realm Archive/Death Must Die/Saves":
+#      tags:
+#        - save
+#      when:
+#        - os: windows
 
-# Assume standart install and not portable
-"Outlaws + A Handful of Missions (DREAMM)":
+Demonic Mahjong:
   files:
-    "<winAppData>/Aaron Giles/DREAMM/gamedelta/lec-outlaws":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
-Pingus:
-  files:
-    "<winAppData>/Pingus":
-      tags:
-        - config
-        - save
-        - levels
-      when:
-        - os: windows
-
-AColony:
-  files:
-    "<base>/saves":
+    "<home>/AppData/LocalLow/Boxed Lightning Games/Demonic Mahjong/Save/*":
       tags:
         - config
         - save
       when:
         - os: windows
   steam:
-    id: 1200570
+    id: 3444020
 
-"Dungeon Keeper (KeeperFX)":
+Desktop Defender:
   files:
-    "<base>/save":
+    "<home>/AppData/LocalLow/Conradical Games/Desktop Defender/*.sav":
       tags:
         - config
         - save
       when:
         - os: windows
+
+Desktop Survivors 98:
+  files:
+    "<winAppData>/Desktop Survivors 98":
+      tags:
+        - save
+      when:
+        - os: windows
+
+DevilutionX - Diablo 1 port:
+  files:
+    "<winAppData>/diasurgical/devilution":
+      tags:
+        - save
+        - config
+      when:
+        - os: windows
+
+# TODO Remove once the PCgaming Wiki page can be edited again
+Dino Crisis:
   installDir:
-    KeeperFX: {}
+    4249130_DinoCrisis: {}
+  files:
+    "<base>/*/SAVE*.dns":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 4249130
 
 "Doom RPG (Mobile)":
   files:
@@ -337,216 +232,7 @@ AColony:
   installDir:
     Doom 2 RPG: {}
 
-WipeOut Phantom Edition:
-  files:
-    "<base>/highscores.dat":
-      tags:
-        - save
-      when:
-        - os: windows
-  installDir:
-    wipeout: {}
-
-IGT Slots Paradise Garden:
-  registry:
-    HKEY_CURRENT_USER/Software/Encore/IGTÂ® Slots Paradise Gardenâ„¢:
-      tags:
-        - save
-        - config
-  steam:
-    id: 320970
-
-Wolfenstein RPG:
-  files:
-    "<base>/WolfensteinRPG.app":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  installDir:
-    Wolfenstein RPG: {}
-
-Dwelvers:
-  files:
-    "<winAppData>/Dwelvers":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
-Slam Tilt:
-  files:
-    "<base>/DAT/SLAMTILT.CFG":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  installDir:
-    Slamtilt: {}
-
-ITGmania:
-  files:
-    "<base>/Save":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  installDir:
-    ITGmania: {}
-
-It's Only Money:
-  files:
-    "<winLocalAppData>/CrimeRP/Saved/SaveGames":
-      tags:
-        - save
-      when:
-        - os: windows
-
-Tamer Vale:
-  files:
-    "<home>/AppData/LocalLow/PixelBee/TamerVale":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
-Non-Stop Raiders:
-  registry:
-    "HKEY_CURRENT_USER/Software/Orkbadger/Non-Stop Raiders":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
-"Ghost Master: Resurrection":
-  files:
-    "<winLocalAppData>/GhostMasterRemake/Saved/SaveGames":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
-HOLE:
-  files:
-    "<winLocalAppData>/HOLE/Saved/SaveGames":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
-My Little Life:
-  files:
-    "<winLocalAppData>/My_Little_Life/FULL/SAVES":
-      tags:
-        - save
-      when:
-        - os: windows
-
-#Stick It to the Stickman:
-#  files:
-#    "<home>/AppData/LocalLow/Free Lives/Stick It To The Stickman/GameData/*.stk":
-#      tags:
-#        - save
-#      when:
-#        - os: windows
-
-Metal Thunder:
-  files:
-    "<home>/AppData/LocalLow/Dumbbell Games/Metal Thunder":
-      tags:
-        - save
-      when:
-        - os: windows
-
-Rhythm Fighter:
-  files:
-    "<home>/AppData/LocalLow/EchoGames/Rhythm Fighter/rf_steam/played.dat":
-      tags:
-        - save
-      when:
-        - os: windows
-
-Riding to Bounce City:
-  files:
-    "<home>/AppData/LocalLow/Trigon fan/Riding to Bounce City/player.json":
-      tags:
-        - save
-      when:
-        - os: windows
-
-"Snow Bros. Wonderland":
-  files:
-    "<home>/AppData/LocalLow/TATSUJIN/SBW/Steam/Save/*/*.dat":
-      tags:
-        - save
-      when:
-        - os: windows
-
-Badlands Crew:
-  files:
-    "<home>/AppData/LocalLow/Runner Duck/BadlandsCrew":
-      tags:
-        - save
-      when:
-        - os: windows
-
-Lewd Gym:
-  files:
-    "<base>/www/save/*.rpgsave":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  steam:
-    id: 2019680
-
-Mineral Defense:
-  files:
-    "<winLocalAppData>/DangerTower/Saved/SaveGames/*/*.json":
-      tags:
-        - save
-      when:
-        - os: windows
-
-1 Million Zombies:
-  files:
-    "<base>/Data/*.daz":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  steam:
-    id: 2331220
-
-Platypus Reclayed:
-  files:
-    "<home>/AppData/LocalLow/Claymatic Games/Platypus Reclayed/Store/":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
-Rise of Gun:
-  files:
-    "<winLocalAppData>/RiseOfGun/Saved/SaveGames":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
-Skarab:
+"DOSMan: Space Aliens in Space!":
   files:
     "<base>/Saves":
       tags:
@@ -554,62 +240,22 @@ Skarab:
       when:
         - os: windows
   steam:
-    id: 3557830
+    id: 2937330
 
-Relentless Frontier:
+D.O.T. Defence:
+  cloud:
+    steam: true
   files:
-    "<home>/Saved Games/Relentless Frontier/Relentless Frontier":
+    "<winAppData>/Godot/app_userdata/DOTDefence/*_progress.cfg":
       tags:
         - save
       when:
         - os: windows
-
-Mini Settlers:
-  files:
-    "<home>/AppData/LocalLow/Knight Owl Games/Mini Settlers/*/":
+    "<winAppData>/Godot/app_userdata/DOTDefence/*.save":
       tags:
         - save
       when:
         - os: windows
-
-Desktop Defender:
-  files:
-    "<home>/AppData/LocalLow/Conradical Games/Desktop Defender/*.sav":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
-Bits & Bops:
-  files:
-    "<home>/AppData/LocalLow/Tempo Lab Games/Bits _ Bops/save1.dat":
-      tags:
-        - save
-      when:
-        - os: windows
-
-Demonic Mahjong:
-  files:
-    "<home>/AppData/LocalLow/Boxed Lightning Games/Demonic Mahjong/Save/*":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  steam:
-    id: 3444020
-
-Anomalous Coffee Machine 2:
-  files:
-    "<winAppData>/Godot/app_userdata/Anomalous Coffee Machine 2/*.dat":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-  steam:
-    id: 3797340
 
 Dr. Mario 64:
   files:
@@ -620,40 +266,22 @@ Dr. Mario 64:
       when:
         - os: windows
 
-Gunhouse:
+"Dungeon Keeper (KeeperFX)":
   files:
-    "<home>/AppData/LocalLow/Necrosoft Games/Gunhouse/*.sav":
-      tags:
-        - save
-      when:
-        - os: windows
-
-Folklands:
-  files:
-    "<winAppData>/Godot/app_userdata/Folklands/*.sav":
-      tags:
-        - save
-      when:
-        - os: windows
-    "<winAppData>/Godot/app_userdata/Folklands/settings.ini":
+    "<base>/save":
       tags:
         - config
-      when:
-        - os: windows
-
-# From the Developer
-Smutty Scrolls:
-  files:
-    "<winAppData>/Smutty Scrolls/Local Storage/leveldb":
-      tags:
         - save
       when:
         - os: windows
+  installDir:
+    KeeperFX: {}
 
-WW2 Rebuilder:
+Dwelvers:
   files:
-    "<winLocalAppData>/WW2_Rebuilder/Saved/SaveGames/*.sav":
+    "<winAppData>/Dwelvers":
       tags:
+        - config
         - save
       when:
         - os: windows
@@ -690,28 +318,6 @@ Epilogue Playback:
       when:
         - os: windows
 
-Bioweaver:
-  files:
-    "<home>/AppData/LocalLow/EmpromGame/Bioweaver/219858":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
-# TODO Remove once the PCgaming Wiki page can be edited again
-Dino Crisis:
-  installDir:
-    4249130_DinoCrisis: {}
-  files:
-    "<base>/*/SAVE*.dns":
-      tags:
-        - save
-      when:
-        - os: windows
-  steam:
-    id: 4249130
-
 # Base rule provided by sehraf
 Eufloria Classic:
   cloud:
@@ -726,6 +332,167 @@ Eufloria Classic:
         - os: linux
   steam:
     id: 3254570
+
+Folklands:
+  files:
+    "<winAppData>/Godot/app_userdata/Folklands/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Godot/app_userdata/Folklands/settings.ini":
+      tags:
+        - config
+      when:
+        - os: windows
+
+"Ghost Master: Resurrection":
+  files:
+    "<winLocalAppData>/GhostMasterRemake/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+Granvir:
+  files:
+    "<home>/AppData/LocalLow/Airborne Games/Granvir/Progress/*.txt":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+Gunhouse:
+  files:
+    "<home>/AppData/LocalLow/Necrosoft Games/Gunhouse/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+
+Hocus Pocus:
+  files:
+    "<base>/Hocus Pocus/HOCUS.SAV":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 358290
+
+HOLE:
+  files:
+    "<winLocalAppData>/HOLE/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+Hugo Troll Race:
+  files:
+    "<winAppData>/ImageAndForm/HugoTrollRace/save":
+      tags:
+        - save
+      when:
+        - os: windows
+
+IGT Slots Paradise Garden:
+  registry:
+    HKEY_CURRENT_USER/Software/Encore/IGTÂ® Slots Paradise Gardenâ„¢:
+      tags:
+        - save
+        - config
+  steam:
+    id: 320970
+
+Isekai Janken Hero:
+  files:
+    "<home>/AppData/LocalLow/BFGS/Isekai Janken Hero/SaveData":
+      tags:
+        - save
+      when:
+        - os: windows
+
+It's Only Money:
+  files:
+    "<winLocalAppData>/CrimeRP/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+
+ITGmania:
+  files:
+    "<base>/Save":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    ITGmania: {}
+
+"Jak and Daxter: The Precursor Legacy (OpenGOAL)":
+  files:
+    "<winAppData>/OpenGOAL/jak1/saves":
+      tags:
+        - save
+      when:
+        - os: windows   
+    "<winAppData>/OpenGOAL/jak1/settings":
+      tags:
+        - config
+      when:
+        - os: windows   
+
+"Jak and Daxter: The Precursor Legacy":
+  alias: "Jak and Daxter: The Precursor Legacy (OpenGOAL)"
+
+"Kajun-chan's Lucid Room":
+  files:
+    "<winLocalAppData>/Iseika/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/Iseika/Saved/Screenshots":
+      tags:
+        - save
+      when:
+        - os: windows
+
+Lewd Gym:
+  files:
+    "<base>/www/save/*.rpgsave":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 2019680
+
+Mad Island:
+  files:
+    "<base>/Mad Island_Data/StreamingAssets/XML":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 2739590
+
+Metal Thunder:
+  files:
+    "<home>/AppData/LocalLow/Dumbbell Games/Metal Thunder":
+      tags:
+        - save
+      when:
+        - os: windows
 
 # TODO Check for future changes in file structure (including DLC)
 Milling Machine Simulator:
@@ -742,64 +509,71 @@ Milling Machine Simulator:
       when:
         - os: windows
 
-Action Ball:
-  cloud:
-    steam: true
+Mineral Defense:
   files:
-    "<winLocalAppData>/rionix/actionball/*.dat":
+    "<winLocalAppData>/DangerTower/Saved/SaveGames/*/*.json":
+      tags:
+        - save
+      when:
+        - os: windows
+
+Mini Settlers:
+  files:
+    "<home>/AppData/LocalLow/Knight Owl Games/Mini Settlers/*/":
+      tags:
+        - save
+      when:
+        - os: windows
+
+My Little Life:
+  files:
+    "<winLocalAppData>/My_Little_Life/FULL/SAVES":
+      tags:
+        - save
+      when:
+        - os: windows
+
+"Need For Speed II SE (wrapper)":
+  files:
+    "<winAppData>/.nfs2se":
+      tags:
+        - save
+        - config
+      when:
+        - os: windows
+
+Non-Stop Raiders:
+  registry:
+    "HKEY_CURRENT_USER/Software/Orkbadger/Non-Stop Raiders":
       tags:
         - config
         - save
       when:
         - os: windows
 
-ADVANCED V.G. Saturn Tribute:
-  cloud:
-    steam: true
+One Military Camp:
   files:
-    "<home>/Saved Games/ADVANCED V.G. Saturn Tribute/*.bin":
+    "<home>/AppData/LocalLow/Abylight Barcelona/One Military Camp":
       tags:
-        - config
         - save
+        - config
       when:
         - os: windows
 
-Typing Land:
-  cloud:
-    steam: true
+OpenLoco:
   files:
-    "<home>/AppData/LocalLow/higopage/TypingLand/*.txt":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
-"Kajun-chan's Lucid Room":
-  files:
-    "<winLocalAppData>/Iseika/Saved/SaveGames":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-    "<winLocalAppData>/Iseika/Saved/Screenshots":
+    "<winAppData>/OpenLoco":
       tags:
         - save
       when:
         - os: windows
 
-D.O.T. Defence:
-  cloud:
-    steam: true
+# Assume standart install and not portable
+"Outlaws + A Handful of Missions (DREAMM)":
   files:
-    "<winAppData>/Godot/app_userdata/DOTDefence/*_progress.cfg":
+    "<winAppData>/Aaron Giles/DREAMM/gamedelta/lec-outlaws":
       tags:
-        - save
-      when:
-        - os: windows
-    "<winAppData>/Godot/app_userdata/DOTDefence/*.save":
-      tags:
+        - config
         - save
       when:
         - os: windows
@@ -817,17 +591,6 @@ Outlive 25:
       when:
         - os: windows
 
-Valley Peaks:
-  cloud:
-    steam: true
-  files:
-    "<home>/AppData/LocalLow/TubClub/ValleyPeaks/QuickSave":
-      tags:
-        - config
-        - save
-      when:
-        - os: windows
-
 Pesticide Not Required:
   cloud:
     steam: true
@@ -838,6 +601,89 @@ Pesticide Not Required:
         - save
       when:
         - os: windows
+
+Pingus:
+  files:
+    "<winAppData>/Pingus":
+      tags:
+        - config
+        - save
+        - levels
+      when:
+        - os: windows
+
+Platypus Reclayed:
+  files:
+    "<home>/AppData/LocalLow/Claymatic Games/Platypus Reclayed/Store/":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+Relentless Frontier:
+  files:
+    "<home>/Saved Games/Relentless Frontier/Relentless Frontier":
+      tags:
+        - save
+      when:
+        - os: windows
+
+Rhythm Fighter:
+  files:
+    "<home>/AppData/LocalLow/EchoGames/Rhythm Fighter/rf_steam/played.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+
+Riding to Bounce City:
+  files:
+    "<home>/AppData/LocalLow/Trigon fan/Riding to Bounce City/player.json":
+      tags:
+        - save
+      when:
+        - os: windows
+
+Rise of Gun:
+  files:
+    "<winLocalAppData>/RiseOfGun/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+Romancelvania:
+  files:
+    "<winLocalAppData>/Romancelvania/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+
+#Sapphire Safari:
+#  files:
+#    "<winLocalAppData>/SapphireSafari/Saved/SaveGames":
+#      tags:
+#        - save
+#      when:
+#        - os: windows
+#   "<winLocalAppData>/SapphireSafari/Saved/Photos":
+#      tags:
+#        - photos
+#      when:
+#        - os: windows
+
+Skarab:
+  files:
+    "<base>/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3557830
 
 Skies above the Great War:
   files:
@@ -857,11 +703,30 @@ Skies above the Great War:
       when:
         - os: windows
 
-Granvir:
+Slam Tilt:
   files:
-    "<home>/AppData/LocalLow/Airborne Games/Granvir/Progress/*.txt":
+    "<base>/DAT/SLAMTILT.CFG":
       tags:
         - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Slamtilt: {}
+
+# From the Developer
+Smutty Scrolls:
+  files:
+    "<winAppData>/Smutty Scrolls/Local Storage/leveldb":
+      tags:
+        - save
+      when:
+        - os: windows
+
+"Snow Bros. Wonderland":
+  files:
+    "<home>/AppData/LocalLow/TATSUJIN/SBW/Steam/Save/*/*.dat":
+      tags:
         - save
       when:
         - os: windows
@@ -876,12 +741,147 @@ Spellbound Beauties:
       when:
         - os: windows
 
-"Blossom: The Seed Of Life":
+# Assume standart install and not portable
+"Star Wars: TIE Fighter (DREAMM)":
+  files:
+    "<winAppData>/Aaron Giles/DREAMM/gamedelta/lec-tie":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+#Stick It to the Stickman:
+#  files:
+#    "<home>/AppData/LocalLow/Free Lives/Stick It To The Stickman/GameData/*.stk":
+#      tags:
+#        - save
+#      when:
+#        - os: windows
+
+Super Mario 64 Plus:
+  files:
+    "<winLocalAppData>/SM64Plus":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+Super Video Golf:
+  installDir:
+    Super Video Golf: {}
+  launch:
+    "<base>/golf.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2173760
+
+Sweet Transit:
+  files:
+    "<winAppData>/Sweet Transit":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+Tamer Vale:
+  files:
+    "<home>/AppData/LocalLow/PixelBee/TamerVale":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+Tumblebugs:
+  files:
+    "<winAppData>/Wildfire":
+      tags:
+        - save
+        - config
+      when:
+        - os: windows
+
+Typing Land:
   cloud:
     steam: true
   files:
-    "<home>/AppData/LocalLow/Pebbledust Games/Blossom The Seed Of Life":
+    "<home>/AppData/LocalLow/higopage/TypingLand/*.txt":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+Valley Peaks:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/TubClub/ValleyPeaks/QuickSave":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+"Warhammer 40,000: Freeblade":
+  files:
+    "<winLocalAppData>/Packages/PixelToys.Warhammer40000Freeblade_7092mkm8rcvy0/LocalState":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
+Wedding Witch:
+  installDir:
+    Wedding Witch: {}
+  launch:
+    "<base>/Wedding Witch.exe":
+      - when:
+          - os: windows
+            store: steam
+  steam:
+    id: 2529820	
+
+WipeOut Phantom Edition:
+  files:
+    "<base>/highscores.dat":
       tags:
         - save
+      when:
+        - os: windows
+  installDir:
+    wipeout: {}
+
+Wolfenstein RPG:
+  files:
+    "<base>/WolfensteinRPG.app":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  installDir:
+    Wolfenstein RPG: {}
+
+WW2 Rebuilder:
+  files:
+    "<winLocalAppData>/WW2_Rebuilder/Saved/SaveGames/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+
+Zompiercer:
+  files:
+    "<home>/AppData/LocalLow/DDDimanN/Zompiercer/Saves":
+      tags:
+        - save
+        - config
       when:
         - os: windows
