@@ -408,6 +408,19 @@ IGT Slots Paradise Garden:
   steam:
     id: 320970
 
+Interdimensional Vending Machine:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/godot/app_userdata/Interdimensional Vending Machine":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3857430
+
 Isekai Janken Hero:
   files:
     "<home>/AppData/LocalLow/BFGS/Isekai Janken Hero/SaveData":
