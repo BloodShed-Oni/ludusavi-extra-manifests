@@ -37,6 +37,16 @@ Sunshine (Software):
         - config
       when:
         - os: windows
+    "<root>/Sunshine/config/covers":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winLocalAppData>/Sunshine Playnite App Export/Apps":
+      tags:
+        - config
+      when:
+        - os: windows    
 
 TrayToolbar (Software):
   files:
