@@ -70,6 +70,17 @@ Anomalous Coffee Machine 2:
   steam:
     id: 3797340
 
+Anomaly Evolution:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/godot/app_userdata/Anomaly Evolution/*.dat":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+
 "Asterix & Obelix: Heroes":
   files:
     "<home>/AppData/LocalLow/gameXcite/Hero_Asterix/Steam":
