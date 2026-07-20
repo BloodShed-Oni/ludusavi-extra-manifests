@@ -266,6 +266,23 @@ Dr. Mario 64:
       when:
         - os: windows
 
+Dragon Dragon Fire Fire Deluxe:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Dragon Dragon Fire Fire Deluxe/*.cfg":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<winAppData>/Dragon Dragon Fire Fire Deluxe/*.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 4177670
+
 "Dungeon Keeper (KeeperFX)":
   files:
     "<base>/save":
