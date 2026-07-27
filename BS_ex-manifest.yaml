@@ -90,6 +90,19 @@ Anomaly Evolution:
       when:
         - os: windows
 
+Atomcraft:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/godot/app_userdata/Atomcraft":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 2803490
+
 Badlands Crew:
   files:
     "<home>/AppData/LocalLow/Runner Duck/BadlandsCrew":
