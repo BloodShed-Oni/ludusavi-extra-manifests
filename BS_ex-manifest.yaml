@@ -850,6 +850,38 @@ Tamer Vale:
       when:
         - os: windows
 
+TerraTech Worlds:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/TT2/219858/WorldSaves/*":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/TT2/219858/Profiles/*.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/TT2/219858/LocalTechSnapshots/*":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/TT2/219858/Prospectors/*.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/TT2/219858/*.txt":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 2313330
+
 Tumblebugs:
   files:
     "<winAppData>/Wildfire":
