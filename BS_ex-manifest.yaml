@@ -539,6 +539,14 @@ Mad Island:
   steam:
     id: 2739590
 
+"Mekkablood: Quarry Assault":
+  files:
+    "<winLocalAppData>/retrofpsgame/Saved/SaveGames":
+      tags:
+        - save
+      when:
+        - os: windows
+
 Metal Thunder:
   files:
     "<home>/AppData/LocalLow/Dumbbell Games/Metal Thunder":
