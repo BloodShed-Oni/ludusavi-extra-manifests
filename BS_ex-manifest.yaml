@@ -652,6 +652,17 @@ Outlive 25:
       when:
         - os: windows
 
+Pax Autocratica:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Multiverse/Pax Autocratica/Save":
+      tags:
+        - save
+      when:
+        - os: windows
+
+
 Pesticide Not Required:
   cloud:
     steam: true
