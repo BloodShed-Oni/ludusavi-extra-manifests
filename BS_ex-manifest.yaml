@@ -661,6 +661,8 @@ Pax Autocratica:
         - save
       when:
         - os: windows
+  steam:
+    id: 1067360
 
 
 Pesticide Not Required:
@@ -920,6 +922,18 @@ Typing Land:
         - save
       when:
         - os: windows
+
+UMAMI:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Mimmox/UMAMI/*.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3669360
 
 Valley Peaks:
   cloud:
