@@ -386,6 +386,17 @@ Folklands:
       when:
         - os: windows
 
+Frog (Superfrog):
+  files:
+    "<base>/Frog.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Frog: {}
+
+
 "Ghost Master: Resurrection":
   files:
     "<winLocalAppData>/GhostMasterRemake/Saved/SaveGames":
