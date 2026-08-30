@@ -747,6 +747,17 @@ Romancelvania:
       when:
         - os: windows
 
+"Ruff (Ruff 'n' Tumble)":
+  files:
+    "<base>/Ruff.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Ruff: {}
+
+
 #Sapphire Safari:
 #  files:
 #    "<winLocalAppData>/SapphireSafari/Saved/SaveGames":
