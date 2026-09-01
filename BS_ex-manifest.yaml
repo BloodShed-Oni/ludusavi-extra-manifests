@@ -138,6 +138,19 @@ Bits & Bops:
       when:
         - os: windows
 
+Click and Conquer:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/Godot/app_userdata/Click and Conquer/save_data.tres":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3267900
+
+
 Daggerfall Unity:
   files:
     "<home>/AppData/LocalLow/Daggerfall Workshop/Daggerfall Unity":
@@ -756,7 +769,6 @@ Romancelvania:
         - os: windows
   installDir:
     Ruff: {}
-
 
 #Sapphire Safari:
 #  files:
