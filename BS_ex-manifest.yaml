@@ -627,6 +627,17 @@ My Little Life:
       when:
         - os: windows
 
+Nelumbo (Lotus 1-3):
+  files:
+    "<base>/Nelumbo.sav":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    Nelumbo: {}
+
+
 Non-Stop Raiders:
   registry:
     "HKEY_CURRENT_USER/Software/Orkbadger/Non-Stop Raiders":
