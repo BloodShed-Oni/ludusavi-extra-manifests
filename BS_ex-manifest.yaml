@@ -111,6 +111,20 @@ Badlands Crew:
       when:
         - os: windows
 
+Golden Balloon (Diddy Kong Racing):
+  files:
+    "<winAppData>/mdkr64/mdkr64/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
+
+
 Bioweaver:
   files:
     "<home>/AppData/LocalLow/EmpromGame/Bioweaver/219858":
