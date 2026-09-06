@@ -123,6 +123,8 @@ Golden Balloon (Diddy Kong Racing):
         - save
       when:
         - os: windows
+  installDir:
+    GoldenBalloon: {}
 
 
 Bioweaver:
