@@ -746,6 +746,31 @@ Platypus Reclayed:
       when:
         - os: windows
 
+Gen1Recomp (Pokemon Gen 1+2):
+  files:
+    "<winAppData>/pokemon-love2d/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/pokemon-love2d/options.lua":
+      tags:
+        - config
+      when:
+        - os: windows
+    "<base>/options.lua":
+      tags:
+        - config
+      when:
+        - os: windows
+  installDir:
+    gen1recomp-win64: {}
+
 Relentless Frontier:
   files:
     "<home>/Saved Games/Relentless Frontier/Relentless Frontier":
