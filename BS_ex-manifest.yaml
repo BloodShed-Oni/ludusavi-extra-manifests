@@ -770,6 +770,18 @@ Platypus Reclayed:
       when:
         - os: windows
 
+"Reflex Unit : Strike Ops":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Robosaru/StrikeOps/QuickSave/*.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 2992700
+
 Relentless Frontier:
   files:
     "<home>/Saved Games/Relentless Frontier/Relentless Frontier":
