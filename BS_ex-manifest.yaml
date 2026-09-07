@@ -770,7 +770,7 @@ Platypus Reclayed:
       when:
         - os: windows
 
-"Reflex Unit : Strike Ops":
+"Reflex Unit: Strike Ops":
   cloud:
     steam: true
   files:
