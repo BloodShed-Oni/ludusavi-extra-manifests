@@ -950,6 +950,18 @@ Super Video Golf:
   steam:
     id: 2173760
 
+Swan Song:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Business Goose Studios/Swan Song":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3265290
+
 Sweet Transit:
   files:
     "<winAppData>/Sweet Transit":
