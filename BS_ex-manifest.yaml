@@ -603,6 +603,14 @@ Mad Island:
   steam:
     id: 2739590
 
+Mech Commander 2 open source engine:
+  files:
+    "<home>/.mechcommander2/savegame":
+      tags:
+        - save
+      when:
+        - os: windows
+
 "Mekkablood: Quarry Assault":
   files:
     "<winLocalAppData>/retrofpsgame/Saved/SaveGames":
