@@ -704,6 +704,18 @@ One Military Camp:
       when:
         - os: windows
 
+Onigotchi:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/Onigotchi/save.ini":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 4184190
+
 OpenLoco:
   files:
     "<winAppData>/OpenLoco":
