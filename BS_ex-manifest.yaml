@@ -346,6 +346,19 @@ Dragon Dragon Fire Fire Deluxe:
   installDir:
     KeeperFX: {}
 
+Dungeons & Degenerate Gamblers:
+  cloud:
+    steam: true
+  files:
+    "<winAppData>/godot/app_userdata/Dungeons & Degenerate Gamblers/1/*.cfg":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 2400510
+
+
 Dwelvers:
   files:
     "<winAppData>/Dwelvers":
