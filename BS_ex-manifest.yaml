@@ -679,7 +679,7 @@ My Little Life:
       when:
         - os: windows
 
-"Naughty Bear Gold Edition: Restuffed":
+"Naughty Bear: Gold Edition - Restuffed":
   files:
     "<winDocuments>/restuff":
       tags:
