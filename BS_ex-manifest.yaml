@@ -671,6 +671,20 @@ Mini Settlers:
       when:
         - os: windows
 
+MISERY:
+  cloud:
+    steam: true
+  files:
+    "<winLocalAppData>/MISERY/Saved/SaveGames":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 2119830
+
+
 My Little Life:
   files:
     "<winLocalAppData>/My_Little_Life/FULL/SAVES":
