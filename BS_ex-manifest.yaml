@@ -679,6 +679,14 @@ My Little Life:
       when:
         - os: windows
 
+"Naughty Bear Gold Edition: Restuffed":
+  files:
+    "<winDocuments>/restuff":
+      tags:
+        - save
+      when:
+        - os: windows
+
 "Need For Speed II SE (wrapper)":
   files:
     "<winAppData>/.nfs2se":
