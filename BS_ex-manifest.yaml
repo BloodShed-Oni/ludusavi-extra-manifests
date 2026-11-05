@@ -154,6 +154,18 @@ Bits & Bops:
       when:
         - os: windows
 
+"Caravan Carnage: Fruity Road":
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/GonzoSSM/Caravan Carnage Fruity Road/*.dat":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3330940
+
 Click and Conquer:
   cloud:
     steam: true
@@ -684,7 +696,6 @@ MISERY:
   steam:
     id: 2119830
 
-
 My Little Life:
   files:
     "<winLocalAppData>/My_Little_Life/FULL/SAVES":
@@ -1066,6 +1077,19 @@ TerraTech Worlds:
         - os: windows
   steam:
     id: 2313330
+
+Theme Hospital (CorsixTH):
+  files:
+    "<winAppData>/CorsixTH/Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/CorsixTH/*.txt":
+      tags:
+        - config
+      when:
+        - os: windows
 
 Tumblebugs:
   files:
