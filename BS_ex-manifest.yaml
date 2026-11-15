@@ -741,6 +741,19 @@ Non-Stop Raiders:
       when:
         - os: windows
 
+Normal Golf Game:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/Luke Muscat/Normal Golf Game/*.txt":
+      tags:
+        - config
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3510740
+
 One Military Camp:
   files:
     "<home>/AppData/LocalLow/Abylight Barcelona/One Military Camp":
