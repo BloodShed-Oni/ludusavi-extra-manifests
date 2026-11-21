@@ -150,6 +150,18 @@ Bits & Bops:
       when:
         - os: windows
 
+The Brewline:
+  cloud:
+    steam: true
+  files:
+    "<home>/AppData/LocalLow/AlcoraGames/The Brewline/*.json":
+      tags:
+        - save
+      when:
+        - os: windows
+  steam:
+    id: 3916860
+
 "Caravan Carnage: Fruity Road":
   cloud:
     steam: true
