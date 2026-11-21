@@ -111,21 +111,17 @@ Badlands Crew:
       when:
         - os: windows
 
-Golden Balloon (Diddy Kong Racing):
+Beer Manufacture Simulator:
+  cloud:
+    steam: true
   files:
-    "<winAppData>/mdkr64/mdkr64/save":
+    "<home>/AppData/LocalLow/Games Incubator/Beer Manufacture Simulator/*.dat":
       tags:
         - save
       when:
         - os: windows
-    "<base>/save":
-      tags:
-        - save
-      when:
-        - os: windows
-  installDir:
-    GoldenBalloon: {}
-
+  steam:
+    id: 3809410
 
 Bioweaver:
   files:
@@ -483,6 +479,21 @@ Gen1Recomp (Pokemon Gen 1+2):
         - save
       when:
         - os: windows
+
+Golden Balloon (Diddy Kong Racing):
+  files:
+    "<winAppData>/mdkr64/mdkr64/save":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<base>/save":
+      tags:
+        - save
+      when:
+        - os: windows
+  installDir:
+    GoldenBalloon: {}
 
 Granvir:
   files:
